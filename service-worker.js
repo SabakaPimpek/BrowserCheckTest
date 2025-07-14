@@ -1,14 +1,14 @@
 const CACHE_NAME = 'my-site-cache-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/style.css',
-  '/index.js',
-  '/pan-tadeusz.pdf',
-  '/test-file.dat',
-  '/SampleVideo.mp4',
-  '/SampleAudio.mp3',
-  '/iframe.html'
+  './index.html',
+  './style.css',
+  './index.js',
+  './pan-tadeusz.pdf',
+  './test-file.dat',
+  './SampleVideo.mp4',
+  './SampleAudio.mp3',
+  './iframe.html'
 ];
 
 self.addEventListener('install', event => {
